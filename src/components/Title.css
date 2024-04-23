@@ -1,0 +1,74 @@
+.titleContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 700px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    322deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(130, 0, 255, 1) 100%
+  );
+  text-align: center;
+  user-select: none;
+  z-index: -5;
+}
+.title {
+  position: absolute;
+  width: 1200px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: -600px;
+  margin-top: -150px;
+  font-weight: 200;
+}
+.typed-text {
+  font-weight: 700;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+video {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+.subHeader {
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 350px;
+  font-size: 25px;
+}
+.bolder {
+  font-weight: 700;
+}
+.button {
+  padding: 15px 60px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
+  transition: 0.3s;
+  font-size: 20px;
+  user-select: none;
+}
+.button:hover {
+  background-color: #96c9ff;
+  color: black;
+  padding: 17px 68px;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  height: 100px;
+}

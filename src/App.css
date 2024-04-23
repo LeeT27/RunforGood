@@ -1,0 +1,32 @@
+:root {
+  --purple: #8a2be2; /* Medium purple */
+  --pink: #ff69b4; /* Hot pink */
+  --blue: #4169e1; /* Royal blue */
+}
+
+body {
+  font-family: 'Plus Jakarta Sans';
+  color: white;
+}
+.text-tiny {
+  font-size: 18px;
+}
+
+.text-small {
+  font-size: 25px;
+}
+
+.text-medium {
+  font-size: 32px;
+}
+
+.text-large {
+  font-size: 50px;
+}
+
+.text-massive {
+  font-size: 75px;
+}
+.front {
+  z-index: 100;
+}

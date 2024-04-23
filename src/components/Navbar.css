@@ -1,0 +1,101 @@
+.navContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 90;
+  user-select: none;
+}
+.logo {
+  width: 80px;
+  cursor: pointer;
+  margin-left: -50px;
+}
+ul {
+  list-style: none;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  font-size: 22px;
+  cursor: pointer;
+  margin-right: 25px;
+}
+ul li:hover {
+  color: gold;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-left: -150px;
+}
+.search-box input {
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: black;
+  font-size: 18px;
+  max-width: 200px;
+}
+.search-box img {
+  width: 20px;
+  cursor: pointer;
+}
+.search-box input::placeholder {
+  color: #000;
+}
+#home {
+  width: 90px;
+  height: 30px;
+  background: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#blog {
+  width: 90px;
+  height: 30px;
+  background: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#about {
+  width: 90px;
+  height: 30px;
+  background: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#contact {
+  width: 90px;
+  height: 30px;
+  background: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#donate {
+  width: 90px;
+  height: 30px;
+  background-color: deepskyblue;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 50px;
+}
